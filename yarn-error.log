@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/king/.nvm/versions/node/v15.2.1/bin/node /Users/king/.nvm/versions/node/v15.2.1/bin/yarn add routers
+
+PATH: 
+  /Users/king/.nvm/versions/node/v15.2.1/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/king/.nvm/versions/node/v15.2.1/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.2.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/king/Library/Caches/Yarn/v6/npm-semver-7.3.4-27aaa7d2e4ca76452f98d3add093a72c943edc97-integrity/node_modules/semver/ranges/valid.js' -> '/Users/king/Projects-DigitalCrafts/CreditSharks-LLC-Capstone-FandB/node_modules/sequelize/node_modules/semver/ranges/valid.js'
+
+npm manifest: 
+  {
+    "name": "c",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@material-ui/core": "^4.11.3",
+      "@material-ui/icons": "^4.11.2",
+      "@stripe/react-stripe-js": "^1.2.2",
+      "@stripe/stripe-js": "^1.12.1",
+      "axios": "^0.21.1",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "morgan": "^1.10.0",
+      "pg": "^8.5.1",
+      "pg-hstore": "^2.3.3",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "sequelize": "^6.5.0",
+      "stripe": "^8.135.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
