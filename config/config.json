@@ -2,14 +2,14 @@
   "development": {
     "username": "king",
     "password": null,
-    "database": "creditsharks",
+    "database": "creditshark420",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "king",
     "password": null,
-    "database": "creditsharks",
+    "database": "creditshark420",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

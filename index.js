@@ -3,6 +3,34 @@ const app = express ();
 const path = require("path");
 
 
+// const helmet = require('helmet');
+
+const morgan = require('morgan');
+const es6Renderer = require('express-es6-template-engine');
+const session = require('express-session');
+// const FileStore = require('session-file-store')(session);
+
+const logger = morgan('dev');
+
+const loginRouter=require('./loginRouter')
+
+
+app.use(session({
+    // store: new FileStore(),  // no options for now
+    secret: "secret",
+    saveUninitialized: false,
+    resave: true,
+    rolling: true,
+    cookie: {
+        maxAge: 1000 * 60 * 60 * 24 * 7
+    }
+}));
+app.engine('html', es6Renderer);
+app.set('views', 'templates');
+app.set('view engine', 'html');
+// const server = http.createServer(app);
+
+
 
 require("dotenv").config();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST)
@@ -11,9 +39,11 @@ app.use(express.json())
 const bodyParser=require('body-parser')
 const cors=require('cors')
 
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 app.use(cors());
+
+app.use('/login', loginRouter)
 
 
 
