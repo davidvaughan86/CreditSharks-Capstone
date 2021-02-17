@@ -32,6 +32,10 @@ app.set('view engine', 'html');
 
 
 
+
+
+
+
 require("dotenv").config();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST)
 app.use(express.json())
@@ -43,7 +47,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use('/login', loginRouter)
+app.use('/api/login', loginRouter)
 
 
 
