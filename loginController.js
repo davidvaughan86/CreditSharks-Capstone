@@ -54,18 +54,19 @@ const loginLanding = (req, res) => {
 
 const loginVerify = async (req, res) => {
     console.log(req.body)
-    const {username, password} = req.body;
-    console.log('Username: ', username)
+    const {email, password} = req.body;
+    console.log('email: ', email)
     console.log('Password: ', password)
+    
 
     
-    req.session.username = username;
+    
     
     
     
     const user = await users.findOne({
         where: {
-            email: username
+            email
         }
     })
 

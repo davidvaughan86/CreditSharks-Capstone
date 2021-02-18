@@ -40,14 +40,16 @@ require("dotenv").config();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_TEST)
 app.use(express.json())
 
-const bodyParser=require('body-parser')
+// const bodyParser=require('body-parser')
 const cors=require('cors')
 
-app.use(bodyParser.urlencoded({extended:false}));
-app.use(bodyParser.json());
+app.use(express.urlencoded({extended:false}));
+// app.use(bodyParser.json());
 app.use(cors());
-
+app.use(logger);
 app.use('/api/login', loginRouter)
+
+
 
 
 

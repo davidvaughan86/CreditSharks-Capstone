@@ -3,10 +3,10 @@ const {
   Model
 } = require('sequelize');
 
-const bcrypt = require('bcryptjs');
+// const bcrypt = require('bcryptjs');
 
 
-let pswrd = bcrypt.hashSync('12345', 9);
+// let pswrd = bcrypt.hashSync('12345', 9);
 
 module.exports = (sequelize, DataTypes) => {
   class users extends Model {
