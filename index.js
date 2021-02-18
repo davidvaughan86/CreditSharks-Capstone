@@ -78,8 +78,9 @@ app.post("/api/stripe/charge", cors(), async (req, res) => {
         success: false,
       });
     }
+    
   });
-
+ 
 
 
 const port = process.env.PORT || 4000;
