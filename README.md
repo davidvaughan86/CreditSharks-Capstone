@@ -1,4 +1,4 @@
-<img src="./public/images/CSlogo.png"/>
+<img src="../public/images/CSlogo2.png"/>
 
 ## Creator's Notes
 
