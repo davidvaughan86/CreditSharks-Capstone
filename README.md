@@ -1,4 +1,4 @@
-<a href="./images/CSlogo.png"></a>
+<img src="./public/images/CSlogo2.png" style={{width:5%}}/>
 
 ## Creator's Notes
 
