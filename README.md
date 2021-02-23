@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<img src="./public/images/CSlogo2.png" style={{width:5%}}/>
-=======
-<img src="./public/images/CSlogo2.png" width='50%'/>
->>>>>>> c2a0a557b9182ccab419e4bae0bfc5ae4d411a9a
+<img src="./public/images/CSlogo2.png" width='35%'/>
 
 ## Creator's Notes
 
