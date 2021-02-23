@@ -1,4 +1,4 @@
-<img src="./public/images/CSlogo2.png" width='25%'/>
+<img src="./public/images/CSlogo2.png" width='50%'/>
 
 ## Creator's Notes
 
@@ -10,10 +10,10 @@ To create a working E-shop that allows transactions and product viewing. In addi
 ## The Journey
 Though this was not my first React app, it is my first Client/Server app. Here was my process.
 
-<img src='./images/whiteboard.jpg'/>
+<img src='./public/images/whiteboard.jpg' width='75%'/>
 I started with a personal whiteboard to help me decide all the components and routes I would need for both client and server side.
 
-<img src='./images/kanban.png'/>
+<img src='./public/images/kanban.png' width='75%'/>
 I use a Kanban board to visualize the layout and flow of the app.
 
 
