@@ -2,6 +2,8 @@
 
 PSA: The Credit Shark LLC has moved on to new businesses and thus the website is no longer active. He has commissioned me to create "SunnyBnBs". Coming soon.
 
+![CreditSharks-gif1](https://media.giphy.com/media/v7cLLe91gdP1bdfeRr/giphy.gif)
+![CreditSharks-gif2](https://media.giphy.com/media/wJIqXxT3XJq8zbgzEx/giphy.gif)
 <img src="./public/images/CSlogo2.png" width='35%'/>
 
 ## Creator's Notes
